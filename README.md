@@ -67,7 +67,8 @@ Once the variables are defined, we'll assign values to them in the terraform.tfv
 name_function = "virtualMachineLM"
 location      = "East US"
 username      = "luis486"
-Step 4
+
+**Step 4**
 
 We define the provider in our providers.tf file:
 

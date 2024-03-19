@@ -64,9 +64,9 @@ variable username {
 Once the variables are defined, we'll assign values to them in the terraform.tfvars file:
 
 
-name_function = "virtualMachineGSB"
+name_function = "virtualMachineLM"
 location      = "East US"
-username      = "usernamegsb"
+username      = "luis486"
 Step 4
 
 We define the provider in our providers.tf file:

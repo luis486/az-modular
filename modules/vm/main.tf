@@ -68,7 +68,7 @@ resource "azurerm_linux_virtual_machine" "vm_devops" {
 
    admin_ssh_key {
         username = var.user
-        public_key = file("C:/Users/semillero/id_rsa.pub")
+        public_key = file("modules/vm/linuxkey.pem")
     }
 
     os_disk {

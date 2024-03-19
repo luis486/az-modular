@@ -238,3 +238,24 @@ Ensure the correct format: If you make changes, ensure that have correct identan
 Deploy the Virtual Machine: If the plan looks good, apply the configuration to deploy the virtual machine.
 
 *terraform apply*
+
+## EVIDENCIAS
+
+**Terraform Init**
+
+![alt text](images/terraformInit.png.png)
+
+**Terraform Plan**
+
+![alt text](images/terraformPlan.png)
+
+**Terraform Apply**
+
+![alt text](images/terraformApply.png)
+
+**Visualización en Azure**
+
+![alt text](images/GrupoRecursos.png)
+
+
+

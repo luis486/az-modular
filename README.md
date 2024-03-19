@@ -63,15 +63,14 @@ variable username {
 
 Once the variables are defined, we'll assign values to them in the terraform.tfvars file:
 
-
 name_function = "virtualMachineLM"
 location      = "East US"
 username      = "luis486"
 
 **Step 4**
 
-We define the provider in our providers.tf file:
 
+We define the provider in our providers.tf file:
 
 terraform {
   required_version = ">=1.0"
@@ -86,6 +85,7 @@ terraform {
     }
   }
 }
+
 provider "azurerm" {
   features {}
 }
@@ -178,6 +178,7 @@ resource "azurerm_linux_virtual_machine" "vm_devops" {
         version   = "latest"
     }
 }
+
 The respective variables.tf file would be:
 
 
@@ -205,10 +206,10 @@ variable "name_function" {
     type        = string
     description = "prefijo de los recursos"
 }
+
 Now, let's create our main.tf where we'll call the modules:
 
-hcl
-Copy code
+
 resource "azurerm_resource_group" "main" {
     name     = "${var.name_function}-rg"
     location = var.location

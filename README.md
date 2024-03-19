@@ -243,7 +243,7 @@ Deploy the Virtual Machine: If the plan looks good, apply the configuration to d
 
 **Terraform Init**
 
-![alt text](images/terraformInit.png.png)
+![alt text](images/terraformInit.png)
 
 **Terraform Plan**
 
@@ -252,6 +252,10 @@ Deploy the Virtual Machine: If the plan looks good, apply the configuration to d
 **Terraform Apply**
 
 ![alt text](images/terraformApply.png)
+
+**Terraform Apply**
+
+![alt text](images/terraformDestroy.png)
 
 **Visualización en Azure**
 

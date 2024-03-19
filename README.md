@@ -253,7 +253,7 @@ Deploy the Virtual Machine: If the plan looks good, apply the configuration to d
 
 ![alt text](images/terraformApply.png)
 
-**Terraform Apply**
+**Terraform Destroy**
 
 ![alt text](images/terraformDestroy.png)
 
